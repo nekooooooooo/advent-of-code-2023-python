@@ -1,5 +1,6 @@
-with open('input.txt', 'r') as f:
-    lines = f.readlines()
+from aocd import get_data
+
+lines = get_data(day=1, year=2023).splitlines()
 
 calibration_values = []
 
