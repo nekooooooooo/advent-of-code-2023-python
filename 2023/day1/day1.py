@@ -28,10 +28,6 @@ word_to_digit = {
     'nine': '9',
 }
 
-import time
-
-start_time = time.time()
-
 total = 0
 
 for line in lines:
